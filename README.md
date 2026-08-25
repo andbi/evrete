@@ -10,6 +10,12 @@
 > guides at https://www.evrete.org/docs#migration-guide 
 > 
 
+> **Note: Java 8 support is being retired**
+>
+> As Java 8 is nearing the end of its life, Evrete will drop Java 8 compatibility
+> starting with version 4.1.0, which will require Java 17 or later.
+> Projects still on Java 8 should stay on the 4.0.x line.
+
 
 Evrete is a forward-chaining Java rule engine that implements the RETE algorithm and is fully compliant with the Java
 Rule Engine specification (JSR 94).
@@ -20,7 +26,7 @@ brings its own mix of features:
 
 **Rule authoring**
 
-- Rules can be authored both externally and inline as a plain Java 8 code.
+- Rules can be authored both externally and inline as plain Java code.
 - The engine allows rules to be authored as **annotated Java** sources, classes, or archives.
 - The library itself is a flexible tool for creating custom domain-specific rule languages (DSL).
 
